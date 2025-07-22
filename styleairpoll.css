@@ -1,0 +1,95 @@
+body {
+    color: white;
+    background: black;
+}
+
+.heading {
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #2196f3, rgba(0, 0, 0, 0))
+}
+
+.comon-days,
+.comon-report {
+    background: rgba(23, 213, 219, 0.314);
+    display: grid;
+    align-content: center;
+    width: 100%;
+    height: 205px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    border: 1px solid #2196f3;
+
+}
+
+#google-element
+{
+    background-color: black;
+    color:white;
+    border-color: #2196f3;
+}
+.comon-report {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.weather-main .heading,
+.airqualityindex {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.airqualityindex {
+    font-weight: 500;
+    text-decoration: underline #2196f3;
+}
+
+.backbtn{
+    width: 80px;
+    height: 80px;
+    margin-top: 2%;
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    border-color: #2196f3;
+    border-radius: 200px;
+    margin-left: 2%;
+    font-weight: bolder;
+}
+
+.backbtn:hover
+{
+    color:#2396f3;
+    background:black;
+    box-shadow: 0 0 2px #2196f3, 0 0 10px #2196f3 , 0 0 20px #2196f3;
+    transition-delay: 0.25s;
+}
+.live_count
+{
+    color: #2196f3;
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+    .comon-days,
+    .comon-report {
+
+        width: 100%;
+        height: 130px;
+        margin-left: 10px;
+    }
+
+    .backbtn{
+        
+        width: 60px;
+        height: 60px;
+        margin-top: 2%;
+        font-size: 40px;
+    }
+}
