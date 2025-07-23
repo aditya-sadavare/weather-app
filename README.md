@@ -52,5 +52,5 @@ While also displaying predefined cities (Mumbai, Delhi, Pune) and retaining your
 
 ## ✍️ Author
 
-**Aditya Sadavare**  
+**Aditya Sadavare,Ritesh Ghadge**  
 
